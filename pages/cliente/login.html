@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Cliente</title>
+    <link rel="stylesheet" href="../../styles/cli_login.css" />
+  </head>
+  <body>
+    <main class="login-main">
+      <div class="login-card">
+        <h2>Login do Cliente</h2>
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email:exemplo@exemplo.com"
+          required
+        />
+        <div class="ver-senha">
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Senha:Senha123"
+          required
+        />
+        <span id="togglepassword" class="eye-icon">👁️</span>
+</div>
+        <button type="submit">Entrar</button>
+      </div>
+    </main>
+    <script src="../../scripts/cli_login.js"></script>
+  </body>
+</html>

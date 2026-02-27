@@ -1,0 +1,50 @@
+label,
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.login-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.login-card {
+  background-color: #dfd8d8;
+  flex-direction: column;
+  width: 300px;
+  gap: 15px;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+}
+
+.ver-senha {
+  position: relative;
+  width: 100%; /* Garante que ocupe a largura total */
+  display: flex;
+  align-items: center;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px; /* Distância da borda direita interna */
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.ver-senha input {
+  width: 100%;
+  padding-right: 40px; /* Abre espaço na direita para o olho não ficar em cima do texto */
+  box-sizing: border-box; /* Garante que o padding não aumente o tamanho do campo */
+}
